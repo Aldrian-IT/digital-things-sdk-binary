@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
 	name: "digital-things-sdk-binary",
+	products: [
+		.library(name: "DigitalThingsBeta", targets: ["DigitalThingsSDKBeta"])
+	],
 	targets: [
 		.binaryTarget(
 			name: "DigitalThingsSDKBeta",
