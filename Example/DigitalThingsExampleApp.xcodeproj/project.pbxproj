@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599EB4CA2BFC29C60037AFBF /* DigitalThingsBeta in Frameworks */ = {isa = PBXBuildFile; productRef = 599EB4C92BFC29C60037AFBF /* DigitalThingsBeta */; };
+		59DAD6372BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */; };
+		59DAD6392BFC247C0072AFDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6382BFC247C0072AFDD /* ContentView.swift */; };
+		59DAD63B2BFC247D0072AFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAD63A2BFC247D0072AFDD /* Assets.xcassets */; };
+		59DAD63F2BFC247D0072AFDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */; };
+		59DAD6492BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */; };
+		59DAD6532BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */; };
+		59DAD6552BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59DAD6452BFC247D0072AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59DAD62B2BFC247C0072AFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DAD6322BFC247C0072AFDD;
+			remoteInfo = DigitalThingsExampleApp;
+		};
+		59DAD64F2BFC247D0072AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59DAD62B2BFC247C0072AFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DAD6322BFC247C0072AFDD;
+			remoteInfo = DigitalThingsExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalThingsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppApp.swift; sourceTree = "<group>"; };
+		59DAD6382BFC247C0072AFDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59DAD63A2BFC247D0072AFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59DAD63C2BFC247D0072AFDD /* DigitalThingsExampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DigitalThingsExampleApp.entitlements; sourceTree = "<group>"; };
+		59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalThingsExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppTests.swift; sourceTree = "<group>"; };
+		59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalThingsExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppUITests.swift; sourceTree = "<group>"; };
+		59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59DAD6302BFC247C0072AFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599EB4CA2BFC29C60037AFBF /* DigitalThingsBeta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD6412BFC247D0072AFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD64B2BFC247D0072AFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59DAD62A2BFC247C0072AFDD = {
+			isa = PBXGroup;
+			children = (
+				59DAD6352BFC247C0072AFDD /* DigitalThingsExampleApp */,
+				59DAD6472BFC247D0072AFDD /* DigitalThingsExampleAppTests */,
+				59DAD6512BFC247D0072AFDD /* DigitalThingsExampleAppUITests */,
+				59DAD6342BFC247C0072AFDD /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
+			wrapsLines = 1;
+		};
+		59DAD6342BFC247C0072AFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */,
+				59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */,
+				59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DAD6352BFC247C0072AFDD /* DigitalThingsExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */,
+				59DAD6382BFC247C0072AFDD /* ContentView.swift */,
+				59DAD63A2BFC247D0072AFDD /* Assets.xcassets */,
+				59DAD63C2BFC247D0072AFDD /* DigitalThingsExampleApp.entitlements */,
+				59DAD63D2BFC247D0072AFDD /* Preview Content */,
+			);
+			path = DigitalThingsExampleApp;
+			sourceTree = "<group>";
+		};
+		59DAD63D2BFC247D0072AFDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59DAD6472BFC247D0072AFDD /* DigitalThingsExampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */,
+			);
+			path = DigitalThingsExampleAppTests;
+			sourceTree = "<group>";
+		};
+		59DAD6512BFC247D0072AFDD /* DigitalThingsExampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */,
+				59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */,
+			);
+			path = DigitalThingsExampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DAD6582BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleApp" */;
+			buildPhases = (
+				59DAD62F2BFC247C0072AFDD /* Sources */,
+				59DAD6302BFC247C0072AFDD /* Frameworks */,
+				59DAD6312BFC247C0072AFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalThingsExampleApp;
+			packageProductDependencies = (
+				599EB4C92BFC29C60037AFBF /* DigitalThingsBeta */,
+			);
+			productName = DigitalThingsExampleApp;
+			productReference = 59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59DAD6432BFC247D0072AFDD /* DigitalThingsExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DAD65B2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppTests" */;
+			buildPhases = (
+				59DAD6402BFC247D0072AFDD /* Sources */,
+				59DAD6412BFC247D0072AFDD /* Frameworks */,
+				59DAD6422BFC247D0072AFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59DAD6462BFC247D0072AFDD /* PBXTargetDependency */,
+			);
+			name = DigitalThingsExampleAppTests;
+			productName = DigitalThingsExampleAppTests;
+			productReference = 59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59DAD64D2BFC247D0072AFDD /* DigitalThingsExampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DAD65E2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppUITests" */;
+			buildPhases = (
+				59DAD64A2BFC247D0072AFDD /* Sources */,
+				59DAD64B2BFC247D0072AFDD /* Frameworks */,
+				59DAD64C2BFC247D0072AFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59DAD6502BFC247D0072AFDD /* PBXTargetDependency */,
+			);
+			name = DigitalThingsExampleAppUITests;
+			productName = DigitalThingsExampleAppUITests;
+			productReference = 59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59DAD62B2BFC247C0072AFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					59DAD6322BFC247C0072AFDD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					59DAD6432BFC247D0072AFDD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 59DAD6322BFC247C0072AFDD;
+					};
+					59DAD64D2BFC247D0072AFDD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 59DAD6322BFC247C0072AFDD;
+					};
+				};
+			};
+			buildConfigurationList = 59DAD62E2BFC247C0072AFDD /* Build configuration list for PBXProject "DigitalThingsExampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59DAD62A2BFC247C0072AFDD;
+			packageReferences = (
+				599EB4C82BFC29C50037AFBF /* XCRemoteSwiftPackageReference "digital-things-sdk-binary" */,
+			);
+			productRefGroup = 59DAD6342BFC247C0072AFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */,
+				59DAD6432BFC247D0072AFDD /* DigitalThingsExampleAppTests */,
+				59DAD64D2BFC247D0072AFDD /* DigitalThingsExampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59DAD6312BFC247C0072AFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DAD63F2BFC247D0072AFDD /* Preview Assets.xcassets in Resources */,
+				59DAD63B2BFC247D0072AFDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD6422BFC247D0072AFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD64C2BFC247D0072AFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59DAD62F2BFC247C0072AFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DAD6392BFC247C0072AFDD /* ContentView.swift in Sources */,
+				59DAD6372BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD6402BFC247D0072AFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DAD6492BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DAD64A2BFC247D0072AFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DAD6532BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift in Sources */,
+				59DAD6552BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59DAD6462BFC247D0072AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */;
+			targetProxy = 59DAD6452BFC247D0072AFDD /* PBXContainerItemProxy */;
+		};
+		59DAD6502BFC247D0072AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */;
+			targetProxy = 59DAD64F2BFC247D0072AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59DAD6562BFC247D0072AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59DAD6572BFC247D0072AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		59DAD6592BFC247D0072AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DigitalThingsExampleApp/DigitalThingsExampleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalThingsExampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59DAD65A2BFC247D0072AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DigitalThingsExampleApp/DigitalThingsExampleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalThingsExampleApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59DAD65C2BFC247D0072AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalThingsExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalThingsExampleApp";
+			};
+			name = Debug;
+		};
+		59DAD65D2BFC247D0072AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalThingsExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalThingsExampleApp";
+			};
+			name = Release;
+		};
+		59DAD65F2BFC247D0072AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalThingsExampleApp;
+			};
+			name = Debug;
+		};
+		59DAD6602BFC247D0072AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalThingsExampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59DAD62E2BFC247C0072AFDD /* Build configuration list for PBXProject "DigitalThingsExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DAD6562BFC247D0072AFDD /* Debug */,
+				59DAD6572BFC247D0072AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DAD6582BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DAD6592BFC247D0072AFDD /* Debug */,
+				59DAD65A2BFC247D0072AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DAD65B2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DAD65C2BFC247D0072AFDD /* Debug */,
+				59DAD65D2BFC247D0072AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DAD65E2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DAD65F2BFC247D0072AFDD /* Debug */,
+				59DAD6602BFC247D0072AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		599EB4C82BFC29C50037AFBF /* XCRemoteSwiftPackageReference "digital-things-sdk-binary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Aldrian-IT/digital-things-sdk-binary.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		599EB4C92BFC29C60037AFBF /* DigitalThingsBeta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 599EB4C82BFC29C50037AFBF /* XCRemoteSwiftPackageReference "digital-things-sdk-binary" */;
+			productName = DigitalThingsBeta;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 59DAD62B2BFC247C0072AFDD /* Project object */;
+}

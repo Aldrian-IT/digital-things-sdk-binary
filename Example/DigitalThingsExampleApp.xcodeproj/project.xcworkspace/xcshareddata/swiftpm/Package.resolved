@@ -1,0 +1,15 @@
+{
+  "originHash" : "ff5e3209c149933c99fb824c82ad8a85f41d6899f6a60110f2a549185862ba11",
+  "pins" : [
+    {
+      "identity" : "digital-things-sdk-binary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aldrian-IT/digital-things-sdk-binary.git",
+      "state" : {
+        "revision" : "fde2aa849fbd000a23660c7d18bc9731c217a767",
+        "version" : "0.9.1"
+      }
+    }
+  ],
+  "version" : 3
+}
