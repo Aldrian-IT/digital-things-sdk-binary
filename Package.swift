@@ -11,8 +11,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "DigitalThingsSDKBeta",
-			url: "https://github.com/Aldrian-IT/digital-things-sdk-binary/releases/download/0.9.0/DigitalThingsSDKBeta.artifactbundle.zip",
-			checksum: "3f361f378c51a0b6ce61b4c96c69426e02fa4dfd70a4c5dcbf6e59ea495113d7"
+			url: "https://github.com/Aldrian-IT/digital-things-sdk-binary/releases/download/0.9.1/DigitalThingsSDKBeta.artifactbundle.zip",
+			checksum: "bd4f5e5c73c83e4887ff65de40be5dea2e9d71de1ab59f17f88bea13615f70d4"
 		),
 	]
 )
