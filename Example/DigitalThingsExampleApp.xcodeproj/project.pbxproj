@@ -8,44 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		599EB4CA2BFC29C60037AFBF /* DigitalThingsBeta in Frameworks */ = {isa = PBXBuildFile; productRef = 599EB4C92BFC29C60037AFBF /* DigitalThingsBeta */; };
+		59B349A52C0C2EA6006B19C3 /* SDKClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349A42C0C2EA6006B19C3 /* SDKClientMock.swift */; };
+		59B349AD2C0C2F34006B19C3 /* CreatorThingIDsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349A62C0C2F34006B19C3 /* CreatorThingIDsView.swift */; };
+		59B349AE2C0C2F34006B19C3 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349A72C0C2F34006B19C3 /* GroupsView.swift */; };
+		59B349AF2C0C2F34006B19C3 /* RefreshAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349A82C0C2F34006B19C3 /* RefreshAuthenticationView.swift */; };
+		59B349B02C0C2F34006B19C3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349A92C0C2F34006B19C3 /* SignInView.swift */; };
+		59B349B12C0C2F34006B19C3 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349AA2C0C2F34006B19C3 /* ThingView.swift */; };
+		59B349B22C0C2F34006B19C3 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B349AB2C0C2F34006B19C3 /* WalletView.swift */; };
 		59DAD6372BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */; };
 		59DAD6392BFC247C0072AFDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6382BFC247C0072AFDD /* ContentView.swift */; };
 		59DAD63B2BFC247D0072AFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAD63A2BFC247D0072AFDD /* Assets.xcassets */; };
 		59DAD63F2BFC247D0072AFDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */; };
-		59DAD6492BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */; };
-		59DAD6532BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */; };
-		59DAD6552BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		59DAD6452BFC247D0072AFDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59DAD62B2BFC247C0072AFDD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 59DAD6322BFC247C0072AFDD;
-			remoteInfo = DigitalThingsExampleApp;
-		};
-		59DAD64F2BFC247D0072AFDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59DAD62B2BFC247C0072AFDD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 59DAD6322BFC247C0072AFDD;
-			remoteInfo = DigitalThingsExampleApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		59B349A42C0C2EA6006B19C3 /* SDKClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKClientMock.swift; sourceTree = "<group>"; };
+		59B349A62C0C2F34006B19C3 /* CreatorThingIDsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorThingIDsView.swift; sourceTree = "<group>"; };
+		59B349A72C0C2F34006B19C3 /* GroupsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		59B349A82C0C2F34006B19C3 /* RefreshAuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshAuthenticationView.swift; sourceTree = "<group>"; };
+		59B349A92C0C2F34006B19C3 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		59B349AA2C0C2F34006B19C3 /* ThingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
+		59B349AB2C0C2F34006B19C3 /* WalletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalThingsExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppApp.swift; sourceTree = "<group>"; };
 		59DAD6382BFC247C0072AFDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59DAD63A2BFC247D0072AFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DAD63C2BFC247D0072AFDD /* DigitalThingsExampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DigitalThingsExampleApp.entitlements; sourceTree = "<group>"; };
 		59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalThingsExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppTests.swift; sourceTree = "<group>"; };
-		59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalThingsExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppUITests.swift; sourceTree = "<group>"; };
-		59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalThingsExampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,29 +46,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59DAD6412BFC247D0072AFDD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59DAD64B2BFC247D0072AFDD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59B349AC2C0C2F34006B19C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59B349A62C0C2F34006B19C3 /* CreatorThingIDsView.swift */,
+				59B349A72C0C2F34006B19C3 /* GroupsView.swift */,
+				59B349A82C0C2F34006B19C3 /* RefreshAuthenticationView.swift */,
+				59B349A92C0C2F34006B19C3 /* SignInView.swift */,
+				59B349AA2C0C2F34006B19C3 /* ThingView.swift */,
+				59B349AB2C0C2F34006B19C3 /* WalletView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		59DAD62A2BFC247C0072AFDD = {
 			isa = PBXGroup;
 			children = (
 				59DAD6352BFC247C0072AFDD /* DigitalThingsExampleApp */,
-				59DAD6472BFC247D0072AFDD /* DigitalThingsExampleAppTests */,
-				59DAD6512BFC247D0072AFDD /* DigitalThingsExampleAppUITests */,
 				59DAD6342BFC247C0072AFDD /* Products */,
 			);
 			indentWidth = 4;
@@ -92,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */,
-				59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */,
-				59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +87,8 @@
 			children = (
 				59DAD6362BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift */,
 				59DAD6382BFC247C0072AFDD /* ContentView.swift */,
+				59B349A42C0C2EA6006B19C3 /* SDKClientMock.swift */,
+				59B349AC2C0C2F34006B19C3 /* Views */,
 				59DAD63A2BFC247D0072AFDD /* Assets.xcassets */,
 				59DAD63C2BFC247D0072AFDD /* DigitalThingsExampleApp.entitlements */,
 				59DAD63D2BFC247D0072AFDD /* Preview Content */,
@@ -116,23 +102,6 @@
 				59DAD63E2BFC247D0072AFDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		59DAD6472BFC247D0072AFDD /* DigitalThingsExampleAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				59DAD6482BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift */,
-			);
-			path = DigitalThingsExampleAppTests;
-			sourceTree = "<group>";
-		};
-		59DAD6512BFC247D0072AFDD /* DigitalThingsExampleAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				59DAD6522BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift */,
-				59DAD6542BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift */,
-			);
-			path = DigitalThingsExampleAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,42 +127,6 @@
 			productReference = 59DAD6332BFC247C0072AFDD /* DigitalThingsExampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59DAD6432BFC247D0072AFDD /* DigitalThingsExampleAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59DAD65B2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppTests" */;
-			buildPhases = (
-				59DAD6402BFC247D0072AFDD /* Sources */,
-				59DAD6412BFC247D0072AFDD /* Frameworks */,
-				59DAD6422BFC247D0072AFDD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				59DAD6462BFC247D0072AFDD /* PBXTargetDependency */,
-			);
-			name = DigitalThingsExampleAppTests;
-			productName = DigitalThingsExampleAppTests;
-			productReference = 59DAD6442BFC247D0072AFDD /* DigitalThingsExampleAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		59DAD64D2BFC247D0072AFDD /* DigitalThingsExampleAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59DAD65E2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppUITests" */;
-			buildPhases = (
-				59DAD64A2BFC247D0072AFDD /* Sources */,
-				59DAD64B2BFC247D0072AFDD /* Frameworks */,
-				59DAD64C2BFC247D0072AFDD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				59DAD6502BFC247D0072AFDD /* PBXTargetDependency */,
-			);
-			name = DigitalThingsExampleAppUITests;
-			productName = DigitalThingsExampleAppUITests;
-			productReference = 59DAD64E2BFC247D0072AFDD /* DigitalThingsExampleAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,14 +139,6 @@
 				TargetAttributes = {
 					59DAD6322BFC247C0072AFDD = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					59DAD6432BFC247D0072AFDD = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 59DAD6322BFC247C0072AFDD;
-					};
-					59DAD64D2BFC247D0072AFDD = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 59DAD6322BFC247C0072AFDD;
 					};
 				};
 			};
@@ -234,8 +159,6 @@
 			projectRoot = "";
 			targets = (
 				59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */,
-				59DAD6432BFC247D0072AFDD /* DigitalThingsExampleAppTests */,
-				59DAD64D2BFC247D0072AFDD /* DigitalThingsExampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,20 +173,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59DAD6422BFC247D0072AFDD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59DAD64C2BFC247D0072AFDD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -271,42 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B349AF2C0C2F34006B19C3 /* RefreshAuthenticationView.swift in Sources */,
+				59B349B02C0C2F34006B19C3 /* SignInView.swift in Sources */,
+				59B349B22C0C2F34006B19C3 /* WalletView.swift in Sources */,
+				59B349A52C0C2EA6006B19C3 /* SDKClientMock.swift in Sources */,
+				59B349AD2C0C2F34006B19C3 /* CreatorThingIDsView.swift in Sources */,
 				59DAD6392BFC247C0072AFDD /* ContentView.swift in Sources */,
 				59DAD6372BFC247C0072AFDD /* DigitalThingsExampleAppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59DAD6402BFC247D0072AFDD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59DAD6492BFC247D0072AFDD /* DigitalThingsExampleAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59DAD64A2BFC247D0072AFDD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59DAD6532BFC247D0072AFDD /* DigitalThingsExampleAppUITests.swift in Sources */,
-				59DAD6552BFC247D0072AFDD /* DigitalThingsExampleAppUITestsLaunchTests.swift in Sources */,
+				59B349AE2C0C2F34006B19C3 /* GroupsView.swift in Sources */,
+				59B349B12C0C2F34006B19C3 /* ThingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		59DAD6462BFC247D0072AFDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */;
-			targetProxy = 59DAD6452BFC247D0072AFDD /* PBXContainerItemProxy */;
-		};
-		59DAD6502BFC247D0072AFDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 59DAD6322BFC247C0072AFDD /* DigitalThingsExampleApp */;
-			targetProxy = 59DAD64F2BFC247D0072AFDD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		59DAD6562BFC247D0072AFDD /* Debug */ = {
@@ -495,92 +381,6 @@
 			};
 			name = Release;
 		};
-		59DAD65C2BFC247D0072AFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalThingsExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalThingsExampleApp";
-			};
-			name = Debug;
-		};
-		59DAD65D2BFC247D0072AFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalThingsExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalThingsExampleApp";
-			};
-			name = Release;
-		};
-		59DAD65F2BFC247D0072AFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DigitalThingsExampleApp;
-			};
-			name = Debug;
-		};
-		59DAD6602BFC247D0072AFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aldrian-it.DigitalThingsExampleAppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DigitalThingsExampleApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -598,24 +398,6 @@
 			buildConfigurations = (
 				59DAD6592BFC247D0072AFDD /* Debug */,
 				59DAD65A2BFC247D0072AFDD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59DAD65B2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59DAD65C2BFC247D0072AFDD /* Debug */,
-				59DAD65D2BFC247D0072AFDD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59DAD65E2BFC247D0072AFDD /* Build configuration list for PBXNativeTarget "DigitalThingsExampleAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59DAD65F2BFC247D0072AFDD /* Debug */,
-				59DAD6602BFC247D0072AFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
